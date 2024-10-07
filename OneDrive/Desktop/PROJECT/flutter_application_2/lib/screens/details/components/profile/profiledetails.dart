@@ -21,7 +21,7 @@ class _ProfiledetailsState extends State<Profiledetails> {
         children: [
           Container(
             height: screenHeight * .20,
-            color: Ksecondcolor,
+            color: KTextColorredgreen,
             child: Padding(
               padding: EdgeInsets.all(screenHeight * .02),
               child: Row(

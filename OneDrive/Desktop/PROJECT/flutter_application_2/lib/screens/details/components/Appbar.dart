@@ -27,20 +27,21 @@ class Appbar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-        backgroundColor: KTextColorwhite,
-        title: Column(
-          children: [
-            Text(title),
-            Text(
-              subtitle,
-              style: stylesubtitle,
-            )
-          ],
-        ),
-        leading: leading,
-        leadingWidth: leadingWidth,
-        centerTitle: centerTitle,
-        actions: actions);
+      backgroundColor: KTextColorredgreen,
+      title: Column(
+        children: [
+          Text(title),
+          Text(
+            subtitle,
+            style: stylesubtitle,
+          )
+        ],
+      ),
+      leading: leading,
+      leadingWidth: leadingWidth,
+      centerTitle: centerTitle,
+      // actions: actions
+    );
   }
 
   @override

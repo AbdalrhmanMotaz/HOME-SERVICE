@@ -13,7 +13,7 @@ class Homedetils extends StatefulWidget {
 }
 
 class _HomedetilsState extends State<Homedetils> {
-static  bool hasOrders = false; // تغيير هذه القيمة بناء على وجود طلبات أم لا
+  static bool hasOrders = false; // تغيير هذه القيمة بناء على وجود طلبات أم لا
 
   @override
   Widget build(BuildContext context) {
@@ -60,7 +60,7 @@ static  bool hasOrders = false; // تغيير هذه القيمة بناء عل�
                 ),
               ),
               leadingWidth: 150,
-              stylesubtitle: const TextStyle(color: KTextColorredgreen, fontSize: 15),
+              stylesubtitle: const TextStyle(color: Ksecondcolor, fontSize: 15),
             )
           : Appbar(
               title: 'الرئيسية',
@@ -69,7 +69,7 @@ static  bool hasOrders = false; // تغيير هذه القيمة بناء عل�
                 IconButton(
                   onPressed: () {},
                   icon: const Icon(Icons.emoji_events),
-                  color: KTextColorredgreen,
+                  color: KTextColorwhite,
                   iconSize: 27,
                 ),
               ],
@@ -91,7 +91,8 @@ static  bool hasOrders = false; // تغيير هذه القيمة بناء عل�
                     const SizedBox(height: kDefaultPaddin + 10),
                     const Text("يوجد طلبات قريبة منك بانتظار ",
                         style: ktextstylemediam),
-                    const Text("فعل التنبيهات و ابدأ باستقبال الطلبات وتقديم العروض",
+                    const Text(
+                        "فعل التنبيهات و ابدأ باستقبال الطلبات وتقديم العروض",
                         style: ktextstylemediam),
                     const SizedBox(height: kDefaultPaddin + 10),
                     GestureDetector(

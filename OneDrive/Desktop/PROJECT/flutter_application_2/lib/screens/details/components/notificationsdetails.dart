@@ -30,7 +30,7 @@ class _NotificationsdetailsState extends State<Notificationsdetails> {
             children: [
               // Image.asset("assets/box-open.png", height: screenHeight * .2),
               Text(
-                "لا يوجد تنبهات توصيل لدبك",
+                "لا يوجد تنبهات عمل لدبك",
                 style: ktextstylesmale,
               ),
               Text(
@@ -46,6 +46,5 @@ class _NotificationsdetailsState extends State<Notificationsdetails> {
         ),
       ),
     );
-    
   }
 }

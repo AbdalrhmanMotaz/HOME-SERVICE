@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/screens/details/components/ordarsdetails.dart';
+import 'package:flutter_application_2/screens/details/components/order/ordarsdetails.dart';
 
 class Order extends StatefulWidget {
   const Order({super.key});

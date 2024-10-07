@@ -6,7 +6,8 @@ import 'package:flutter_application_2/screens/home/components/order.dart';
 import 'package:flutter_application_2/screens/home/components/My_Profile.dart';
 import 'package:get/get.dart';
 
-int x = 0;
+
+
 void main() {
   runApp(Main_Order_Screen());
 }
@@ -24,7 +25,7 @@ class _orderState extends State<Main_Order_Screen> {
   List<Widget> tabs = [
     const home(),
     const Order(),
-    const notification(),
+    // const notification(),
     const My_Profile()
   ];
 
@@ -37,7 +38,7 @@ class _orderState extends State<Main_Order_Screen> {
             bottomNavigationBar: BottomNavigationBar(
               currentIndex: currentIndex,
               type: BottomNavigationBarType.fixed,
-              fixedColor: KBasiccolor,
+              fixedColor: KTextColorredgreen,
               items: const [
                 BottomNavigationBarItem(
                   icon: Icon(Icons.home),
@@ -47,10 +48,10 @@ class _orderState extends State<Main_Order_Screen> {
                   icon: Icon(Icons.category),
                   label: "الطلبات",
                 ),
-                BottomNavigationBarItem(
-                  icon: Icon(Icons.notifications),
-                  label: "التنبيهات",
-                ),
+                // BottomNavigationBarItem(
+                //   icon: Icon(Icons.notifications),
+                //   label: "التنبيهات",
+                // ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.person),
                   label: "صفحتي",
